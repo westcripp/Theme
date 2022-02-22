@@ -1,0 +1,34 @@
+
+html {
+    filter: invert(0) hue-rotate(0);
+  }
+  
+  img, picture, video, .grid-product__image-mask, .promo-grid__bg, .promo-grid__title,
+  .predictive__image-wrap, .announcement-bar-color-anim, .announcement-bar-color-anim-alt, .product__photos,
+   .payment-icons, .type-product__images, .type-sale-images__image, .type-advanced , .collection-item__title,
+  .thumb-img, .site-header__logo {
+    filter: invert(0) hue-rotate(0);
+  }
+  .type-simple .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale):after {
+    background: radial-gradient(rgba(0,0,0,$colorImageOverlayTextShadow) 0%, rgba(0,0,0,0) 60%);
+  }
+  .header-wrapper--sticky {
+   background: linear-gradient(to bottom, rgba(0 ,0 ,0 ,0.3) 0%,rgba(0 ,0 ,0 ,0) 100%);
+  }
+  
+  .header-wrapper--sticky .site-header:not(.site-header--stuck) {
+      filter: invert(0) hue-rotate(0);
+  }
+  .image-wrap {
+      filter: invert(0) hue-rotate(0);
+  }
+.thumb-img, img, .flag-icon-background {
+    filter: invert(0) hue-rotate(0);
+}
+  .collection-item:not(.collection-item--below) {
+   &:after {
+   @include overlay;
+   background-color: black;
+   opacity: $colorGridOverlayOpacity;
+   }
+     }
