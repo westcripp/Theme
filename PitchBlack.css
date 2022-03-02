@@ -13,10 +13,6 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.2)!important;
 }
 
-.type-simple .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale):after {
-  background: radial-gradient(rgba(255,255,255,0.39) 0%, rgba(255,255,255,0.32) 60%)!important;
-}
-
    .pop-up-popup {
     box-shadow: 0 0 80px rgba(255, 255, 255, 0.2)!important; 
    }
@@ -104,9 +100,6 @@ body {
 .collection-filter .btn {
   padding-top: 3px!important;
 }
-.type-simple .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale):after {
-  margin: -168px -297px!important;
-}
 
 .circular {
   box-shadow: 2px 4px 13px rgba(0,0,0,0.0.0)!important;
@@ -131,6 +124,7 @@ body {
  .type-simple .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale):after {
   background: radial-gradient(rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, 0) 60%)!important;
 }
+
 .pswp img{
   filter: invert(1) hue-rotate(180deg)!important;
 }
