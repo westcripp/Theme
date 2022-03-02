@@ -144,3 +144,13 @@ body {
    filter: invert(1) hue-rotate(180deg);
    background: transparent!important;
  }
+
+ .is-light .predictive-results{
+  filter: invert(1) hue-rotate(180deg)!important;
+
+}
+
+.is-light .site-header__search{
+  filter: invert(1) hue-rotate(180deg)!important;
+
+}

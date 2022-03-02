@@ -68,7 +68,7 @@ body {
    
    }
 
-.btn--full, .btn {
+.btn--full {
   box-shadow: 0 5px 15px #00000029!important;
 }
 
@@ -144,3 +144,12 @@ body {
      filter: invert(0) hue-rotate(0);
      background: #EEEEF2!important;
  }
+ .is-light .predictive-results{
+  filter: invert(0) hue-rotate(0)!important;;
+
+}
+
+.is-light .site-header__search{
+  filter: invert(0) hue-rotate(0)!important;;
+
+}
