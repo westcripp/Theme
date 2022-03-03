@@ -88,8 +88,8 @@ body {
   }
 
 .collection-filter .btn:not(.btn--tertiary-active), .collection-filter__sort-container {
-    width: 90%!important;
-    margin-left: 5%!important;
+    width: 97%!important;
+    margin-left: 1.5%!important;
 }
 
 @media only screen and (max-width: 959px) {
