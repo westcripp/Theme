@@ -154,3 +154,10 @@ body {
   filter: invert(1) hue-rotate(180deg)!important;
 
 }
+
+.newsletter-overlay{
+  background: rgba(255, 255, 255, 0.1)!important;
+ }
+ .sec_btn_text {
+  box-shadow: 0 5px 15px transparent!important;
+ }

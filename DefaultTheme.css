@@ -142,7 +142,7 @@ body {
  }
  .image-wrap {
      filter: invert(0) hue-rotate(0);
-     background: #EEEEF2!important;
+     background: #fcfcfc!important;
  }
  .is-light .predictive-results{
   filter: invert(0) hue-rotate(0)!important;;
@@ -153,3 +153,10 @@ body {
   filter: invert(0) hue-rotate(0)!important;;
 
 }
+
+.newsletter-overlay{
+  background: rgba(0, 0, 0, 0.1)!important;
+ }
+ .sec_btn_text {
+  box-shadow: 0 5px 15px transparent!important;
+ }
